@@ -1,6 +1,6 @@
 theme: jekyll-theme-chirpy
 
-baseurl: ''
+baseurl: '/entrepreneurship'
 
 lang: en-US
 
@@ -14,7 +14,7 @@ description:
   All entrepreneurial resources under one roof for guiding budding entrepreneurs
 
 
-url: ''
+url: 'https://youaskwebuild.github.io/'
 
 github:
   username: YouAskWeBuild
