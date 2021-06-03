@@ -1,6 +1,6 @@
 theme: jekyll-theme-chirpy
 
-baseurl: '/entrepreneurship'
+baseurl: 'entrepreneurship'
 
 lang: en-US
 
