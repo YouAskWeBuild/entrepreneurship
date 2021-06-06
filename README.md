@@ -1,77 +1,39 @@
-# Chirpy Starter
+# Entrepreneurship
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy)
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+> All entrepreneurial resources under one roof
 
-The startup template for [**Jekyll Theme Chirpy**][chirpy].
+***[https://youaskwebuild.github.io/entrepreneurship/](https://youaskwebuild.github.io/entrepreneurship/)***
 
-When installing the **Chirpy** theme through [RubyGems][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. (You can find the gem files by using the command `bundle info --path jekyll-theme-chirpy`). To fully use all the features of **Chirpy**, you need to copy the other critical files/directories from the theme's gem to your Jekyll site.
+## Contributions
 
-The key files/directories to run/build the **Chirpy** theme are as follows:
-
-```shell
-.
-├── _data
-├── _plugins
-├── _tabs
-├── _config.yml
-└──  index.html
+- Fork the repository (https://github.com/YouAskWeBuild/entrepreneurship)
+- If you are going to add content to an existing category, you can simply add to the corresponding file inside *_posts* directory
+- If you are going to add a new category, create a new file under *_posts* directory with the filename in the following format *YYYY-MM-DD-CATEGORY_NAME.md*. Add this to the top of the file,
 ```
-
-So we've extracted all the **Chirpy** gem necessary content here to help you get started quickly.
-
-## Installation
-
-[Use this template][usetemplate] to generate a new repository, and then execute:
-
-[usetemplate]: https://github.com/cotes2020/chirpy-starter/generate
-
-```
-$ bundle
-```
-
-## Usage
-
-### Customing Stylesheet
-
-Creare a new file `/assets/css/style.scss` in your Jekyll site.
-
-And then add the following content:
-
-```scss
 ---
+title: *CATEGORY_NAME*
+date: YYYY-MM-DD HH:MM:SS +TTTT
+categories: [*CATEGORY_NAME*]
+tags: [*COMMA_SEPARATED_CATEGORY_TAGS_IN_SMALLER_CASE*]
 ---
-
-@import "{{ site.theme }}";
-
-// add your style below
+```
+- You can follow this format for the individual links
+```
+- Title
+> Description (Optional)
+> [Website/Youtube/Reddit/Github](Link)
 ```
 
-### Changing the Number of Tabs
+- Raise a pull request.
 
-When adding or deleting files in the `_tabs` folder, you need to complete the section [Customing Stylesheet](#customing-stylesheet) first, and then add a new line before `@import`:
 
-```scss
-$tab-count: {{ site.tabs | size | plus: 1 }};
-```
 
-### Publishing to GitHub Pages
+## Website
 
-See the [deployment instructions](https://github.com/cotes2020/jekyll-theme-chirpy#deployment) of `jekyll-theme-chirpy`.
+Visit the [Website](https://youaskwebuild.github.io/entrepreneurship/)
 
-### Updating
 
-Please note that files and directories in this project may change as the [`jekyll-theme-chirpy`][chirpy] is updated. When updating, please ensure that the file directory structure of your Jekyll site is the same as that of this project.
-
-And then execute:
-
-```console
-$ bundle update jekyll-theme-chirpy
-```
-
-## Documentation
-
-See the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+The project uses [**Jekyll Theme Chirpy**][chirpy].
 
 ## License
 
@@ -79,4 +41,5 @@ This work is published under [MIT][mit] License.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[mit]: https://github.com/YouAskWeBuild/entrepreneurship/blob/main/LICENSE
+
