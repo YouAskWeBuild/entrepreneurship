@@ -37,7 +37,7 @@ social:
 google_site_verification: google_meta_tag_verification
 
 google_analytics:
-  id: ''
+  id: 'UA-198890192-2'
 
   pv:
     proxy_endpoint:
