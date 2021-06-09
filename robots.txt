@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://youaskwebuild.github.io/entrepreneurship/entrepreneurship/sitemap.xml
